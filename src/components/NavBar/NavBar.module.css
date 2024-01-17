@@ -1,0 +1,28 @@
+.headerCss {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+.listCss{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.navCss{
+    width: 20%;
+    margin-right: 3%;
+}
+
+.listCss li{
+    margin-right: 2%;
+    margin-left: 0;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
