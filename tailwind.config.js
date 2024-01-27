@@ -54,6 +54,7 @@ module.exports = {
     },
     fontFamily: {
       'dm': ['DM Sans'],
+      'notoserif': ['Noto Serif Display'],
     },
     fontSize: {
       '10px': '10px',
