@@ -4,19 +4,19 @@ export default function HomeMain() {
 
     return (
         <>
-            <main className="w-screen">
+            <main className="w-[100%]">
                 <section>
                     <article className="font-dm text-white bg-black flex">
-                        <div className="ml-[9%] w-[60%] mt-36 pb-[120px]">
+                        <div className="ml-[8%] w-[60%] mt-36 pb-[120px]">
                             <h1 className="text-[75px] leading-none">✱ <span className="text-[#DBB2FF]">Agencia creativa</span> de Growth Marketing</h1>
                             <h3 className="mt-12 text-[20px] w-[50%]">Soluciones digitales para tu negocio. Diseñamos estrategias de marketing innovadoras</h3>
                         </div>
-                        <img className="absolute w-[22vw] ml-[78vw] mt-56" src="logomind.png" alt="Logo de la Agencia creativa de Growth Marketing"/>
+                        <img className="absolute w-[22vw] right-0 mt-56" src="logomind.png" alt="Logo de la Agencia creativa de Growth Marketing"/>
                     </article>
                     <article>
                         <div className="flex ml-[9%] mr-[9%] mt-[2%] justify-between items-center">
                             <h3 className="font-notoserif font-bold text-[75px]">Our <span className="italic">work</span></h3>
-                            <img src="arrowhomemain.png" alt="Flecha señalando abajo" className="w-[9%] mr-[-40px] mt-[10px]"/>
+                            <img src="arrowhomemain.png" alt="Flecha señalando abajo" className="w-[9%] ml-[40px] mt-[10px]"/>
                         </div>
                         <div className="flex mt-[3%] gap-4 h-[482px] justify-center">
                             <div className="grid grid-cols-8 grid-rows-3 w-[421px] gap-4">
@@ -61,6 +61,9 @@ export default function HomeMain() {
                                     <img className="w-full h-full object-cover" src="gridimg12.png" alt="Fotografía de una producción de fotos y videos hecha para la marca Liva."/>
                                 </div>
                             </div>
+                        </div>
+                        <div className="whitespace-nowrap overflow-hidden mt-32 flex bg-black h-[170px] font-notoserif font-normal text-white items-center justify-center text-[70px] tracking-tighter">
+                            <p className="animate-movetext">EXPLOTEMOS TU MARCA JUNTOS</p>
                         </div>
                     </article>
                     <article>

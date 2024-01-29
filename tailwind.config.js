@@ -76,6 +76,15 @@ module.exports = {
       //   'xxl': { raw: '1400px' },
       //   'xxxl': { raw: '1600px' },
       // },
+      keyframes: {
+        movetext: {
+          '0%': { transform: 'translateX(125%)' },
+          '100%': { transform: 'translateX(-125%)' },
+        },
+      },
+      animation:{
+          'movetext': 'movetext 7s linear infinite',
+      },
       colors: {
         green: '#209F85',
         'green-hover': '#1E957C',
