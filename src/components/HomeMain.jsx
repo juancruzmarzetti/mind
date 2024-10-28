@@ -66,8 +66,12 @@ export default function HomeMain() {
                             <p className="animate-movetext">EXPLOTEMOS TU MARCA JUNTOS</p>
                         </div>
                     </article>
-                    <article>
-                        
+                    <article className="flex items-center">
+                        <div className="font-dm ml-[8%]">
+                            <h3 className="text-[85px] leading-none w-[70%]">✱ ¿Qué nos hace únicos?</h3>
+                            <p className="text-[25px] mt-12 w-[70%]">Somos un team <strong>apasionado & comprometido</strong> por el #MARKETING DIGITAL. En mind trabajamos de forma humana y creativa. <strong>Nos comprometemos al 100% con cada proyecto.</strong></p>
+                        </div>
+                        <img className="right-0 h-[900px]" src="gridimg5.png" alt="Imagen de un celular mostrando el perfil de Instagram de Lukscakes, un cliente de Mind Creative Studio que lleva un emprendimiento de pastelería."/>
                     </article>
                 </section>
             </main>
