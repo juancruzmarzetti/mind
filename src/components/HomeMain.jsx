@@ -74,6 +74,51 @@ export default function HomeMain() {
                         <img className="right-0 h-[900px]" src="gridimg5.png" alt="Imagen de un celular mostrando el perfil de Instagram de Lukscakes, un cliente de Mind Creative Studio que lleva un emprendimiento de pastelería."/>
                     </article>
                 </section>
+                <section>
+                    <article className="font-dm bg-black flex text-white items-center flex-col pt-[100px]">
+                        <h3 className="text-[75px] z-10">✱ CONOCÉ NUESTRO TEAM</h3>
+                        <div className="absolute bg-ourteamcolor p-[14px] w-[1000px] h-[15px] mt-[60px]"></div>
+                        <ul className="pt-[100px] pb-[100px]">
+                            <li>
+                                <img alt="Rocio Marzetti"/>
+                                <div>
+                                    <h4>ROCIO MARZETTI</h4>
+                                    <p>CEO & FOUNDER | ESPECIALISTA EN GROWTH MARKETING & EMAIL MARKETING</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img alt="Mariano Suárez"/>
+                                <div>
+                                    <h4>MARIANO SUÁREZ</h4>
+                                    <p>ENCARGADO DE PAID MEDIA | ESPECIALISTA EN PUBLICIDAD (META ADS Y GOOGLE ADS) </p>
+                                </div>
+                            </li>
+                            <li>
+                                <img alt="Bianca Fitere"/>
+                                <div>
+                                    <h4>BIANCA FITERE</h4>
+                                    <p>COMMUNITY MANAGER | ESPECIALISTA EN REDES SOCIALES & MARKETING DIGITAL</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img alt="Martina García"/>
+                                <div>
+                                    <h4>MARTINA GARCÍA</h4>
+                                    <p>EJECUTIVA DE CUENTAS
+                                    ESPECIALISTA EN GROWTH MARKETING & COPYWRITING</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img alt="Juan Cruz Marzetti Falcone"/>
+                                <div>
+                                    <h4>JUAN CRUZ MARZETTI</h4>
+                                    <p>ENCARGADO DE DISEÑO  
+                                    DISEÑADOR GRÁFICO, EDITOR DE VIDEOS & PROGRAMADOR FULL STACK</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
             </main>
         </>
     );

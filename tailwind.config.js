@@ -86,6 +86,7 @@ module.exports = {
           'movetext': 'movetext 7s linear infinite',
       },
       colors: {
+        'ourteamcolor': '#FF4804',
         green: '#209F85',
         'green-hover': '#1E957C',
         'green-light': 'rgba(32,159,133, 0.3)',
